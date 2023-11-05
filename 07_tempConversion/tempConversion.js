@@ -5,7 +5,7 @@ const convertToCelsius = function(temperature) {
 };
 
 const convertToFahrenheit = function(temperature) {
-  let tempFahrenheit = ((temperature * 1.8) + 32).toFixed(1)
+  let tempFahrenheit = ((temperature * 1.8) + 32)
   tempFahrenheit = Math.round(tempFahrenheit * 10)/10
   
   return tempFahrenheit
